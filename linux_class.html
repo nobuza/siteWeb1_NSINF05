@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Minimalist Portfolio</title>
+		<link rel="stylesheet" href="css/classes.css" />
+
+		<!-- locomotive-scroll -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+	</head>
+	<body id="js-scroll">
+		<div class="wrapper">
+			<div class="container">
+				<!-- navbar -->
+				<div class="navbar">
+					<div class="navbar-container">
+						<div class="site-title">skill level: beginner</div>
+						<div class="site-type">Type: Course</div>
+						<div class="site-year">2021</div>
+					</div>
+				</div>
+
+				<!-- divider -->
+				<div class="divider"></div>
+
+				<!-- header -->
+				<div class="header">
+					<div class="header-container">
+						<h1 class="line anim-typewriter">Linux_basics_1()</h1>
+					</div>
+				</div>
+
+				<!-- hero-image -->
+				<div class="hero-image">
+					<div class="hero-image-container" data-scroll data-scroll-speed="2">
+						<img src="images/hero-image.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="whitespace"></div>
+
+				<!-- sections -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">about</div>
+						<div class="section-order">/001</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<!-- about -->
+				<section class="about">
+					<div class="about-container">
+						<p>
+							Hey! In this room, we'll learn Linux! You know, it's that weird os with all the terminals and stuff
+						</p>
+						<p>
+							We'll look at some backstory (who created the linux core it and why), discover Kali Linux, and learn the basic commands!
+						</p>
+						<p>You'll see, it's nothing complicated.</p>
+					</div>
+				</section>
+
+				<div class="whitespace"></div>
+
+				<!-- projects -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">tasks</div>
+						<div class="section-order">/002</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<section class="project">
+					<div class="project-container">
+						<div>
+							<nav class="menu">
+								<div class="menu__item">
+									<a class="menu__item-link">/ Story of Linux</a>
+								</div>
+
+								<div class="divider"></div>
+
+								<div class="menu__item">
+									<a class="menu__item-link">/ Your first look on a Linux OS</a>
+								</div>
+
+								<div class="divider"></div>
+
+								<div class="menu__item">
+									<a class="menu__item-link">/ Your first commands!</a>
+								</div>
+
+								<div class="divider"></div>
+
+							</nav>
+						</div>
+					</div>
+				</section>
+
+				<div class="whitespace"></div>
+
+				<!-- bottom -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">bottom</div>
+						<div class="section-order">/003</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<section class="bottom">
+					<div class="bottom-container">
+						<p>
+							<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course created by fuyuta.
+							<br />
+						</p>
+					</div>
+				</section>
+
+		<script>
+			const scroll = new LocomotiveScroll({
+				el: document.querySelector("#js-scroll"),
+				smooth: true,
+				smoothMobile: true,
+				inertia: 0.75,
+			});
+		</script>
+	</body>
+</html>
