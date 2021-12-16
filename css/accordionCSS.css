@@ -6,12 +6,9 @@
 
 html,
 body {
-  background: #0f0f0f;
-  color: #fff;
   width: 90%;
   margin: 40px auto;
   font-family: "GrandSlang-Roman";
-  font-size: 50px;
 }
 
 .acc-block {
