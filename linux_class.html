@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Minimalist Portfolio</title>
 		<link rel="stylesheet" href="css/classes.css" />
+		<link rel="stylesheet" href="css/accordionCSS.css" />
 
 		<!-- locomotive-scroll -->
 		<link
@@ -12,6 +13,9 @@
 			href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css"
 		/>
 		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+		<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 	</head>
 	<body id="js-scroll">
 		<div class="wrapper">
@@ -106,6 +110,60 @@
 					</div>
 				</section>
 
+				<div class="acc-toggle" data-collapse="">
+					<div class="acc-block">
+						<div class="acc-no">(01)</div>
+						<div class="acc-title">Story of Linux</div>
+						<div class="acc-toggle-icon">
+							<ion-icon name="add-outline"></ion-icon>
+						</div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry.
+					</li>
+					<li>Lorem Ipsum has been the industry's standard dummy text</li>
+					<li>when an unknown printer took a galley of type and scrambled.</li>
+				</ul>
+
+				<div class="acc-toggle" data-collapse="">
+					<div class="acc-block">
+						<div class="acc-no">(01)</div>
+						<div class="acc-title">Your First look on a linux OS!</div>
+						<div class="acc-toggle-icon">
+							<ion-icon name="add-outline"></ion-icon>
+						</div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry.
+					</li>
+					<li>Lorem Ipsum has been the industry's standard dummy text</li>
+					<li>when an unknown printer took a galley of type and scrambled.</li>
+				</ul>
+
+				<div class="acc-toggle" data-collapse="">
+					<div class="acc-block">
+						<div class="acc-no">(01)</div>
+						<div class="acc-title">Installing Kali Linux, debian based</div>
+						<div class="acc-toggle-icon">
+							<ion-icon name="add-outline"></ion-icon>
+						</div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry.
+					</li>
+					<li>Lorem Ipsum has been the industry's standard dummy text</li>
+					<li>when an unknown printer took a galley of type and scrambled.</li>
+				</ul>
+
 				<div class="whitespace"></div>
 
 				<!-- bottom -->
@@ -128,6 +186,8 @@
 					</div>
 				</section>
 
+<!--JS SCROLLER TO ENABLE AFTER DEV FIXING-->
+			<!--
 		<script>
 			const scroll = new LocomotiveScroll({
 				el: document.querySelector("#js-scroll"),
@@ -136,5 +196,9 @@
 				inertia: 0.75,
 			});
 		</script>
+	-->
+
+		<script src="./js/accordionDropdown.js"></script>
+
 	</body>
 </html>
